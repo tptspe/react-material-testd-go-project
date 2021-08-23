@@ -1,0 +1,12 @@
+export { default as chartjs } from './chartjs';
+export { default as getInitials } from './getInitials';
+export { default as getStates } from './getStates';
+export { default as getEthnicities } from './getEthnicities';
+export { default as getPopulationsTypes } from './getPopulationsTypes';
+export { default as getGenders } from './getGenders';
+export { default as getRace } from './getRace';
+export { default as getTestingProtocols } from './getTestingProtocols';
+export { default as handleImage } from './handleImage';
+export { default as getPopulationManagerInit } from './getPopulationManagerInit';
+export { default as getInputPattern } from './getInputPattern';
+export { default as getVendorCategories } from './getVendorCategories';

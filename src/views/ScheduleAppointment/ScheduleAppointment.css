@@ -1,0 +1,19 @@
+.react-add-to-calendar__button {
+  padding: 8px;
+  background-color: #ffffff;
+  border: 0.82px solid #0f84a9;
+  border-radius: 5.5px;
+  color: #0f84a9;
+  box-shadow: 2px 2px 7px 1px rgba(15, 132, 169, 0.15);
+  text-transform: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 30px;
+  width: 200px;
+}
+
+a:hover {
+  color: #ffffff !important;
+  background-color: #0f84a9;
+}

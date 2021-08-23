@@ -1,0 +1,83 @@
+{
+  "name": "testd-go",
+  "version": "0.0.1",
+  "author": "Aeryus",
+  "email": "ceo@aeryus.io",
+  "private": true,
+  "homepage": "http://testd.com/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "PUBLIC_URL=/go react-scripts build",
+    "build-win": "set PUBLIC_URL=/go&& react-scripts build",
+    "build-old": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "swagger:generate": "npx swagger-typescript-api --no-client -p ./swagger.yml -o ./src/models -n index.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@date-io/moment": "^2.10.6",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/pickers": "^3.2.10",
+    "@material-ui/styles": "^4.10.0",
+    "axios": "^0.19.2",
+    "blueimp-canvas-to-blob": "^3.28.0",
+    "browser-image-compression": "^1.0.13",
+    "clsx": "^1.0.4",
+    "i18next": "^19.8.4",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "material-ui-dropzone": "^3.5.0",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "qrcode.react": "^1.0.0",
+    "qs": "^6.9.4",
+    "react": "^16.8.6",
+    "react-add-to-calendar": "^0.1.5",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^6.1.0",
+    "react-html5-camera-photo": "^1.5.4",
+    "react-i18next": "^11.8.5",
+    "react-input-verification-code": "^0.6.4",
+    "react-material-ui-form-validator": "^2.1.1",
+    "react-native-svg": "^12.1.0",
+    "react-number-format": "^4.4.1",
+    "react-perfect-scrollbar": "^1.5.3",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.0.1",
+    "react-signature-canvas": "^1.0.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "simple-react-validator": "^1.5.0",
+    "underscore": "^1.9.1",
+    "uuid": "^3.3.2",
+    "validate.js": "^0.13.1",
+    "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.20.5",
+    "prettier": "^1.17.1",
+    "prettier-eslint": "^8.8.2",
+    "prettier-eslint-cli": "^4.7.1",
+    "typescript": "^3.5.1"
+  }
+}
